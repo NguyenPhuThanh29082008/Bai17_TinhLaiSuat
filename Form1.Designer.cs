@@ -69,7 +69,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(379, 72);
+            this.label4.Location = new System.Drawing.Point(341, 34);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(113, 20);
             this.label4.TabIndex = 3;
@@ -110,9 +110,9 @@
             // 
             this.lstKq.FormattingEnabled = true;
             this.lstKq.ItemHeight = 20;
-            this.lstKq.Location = new System.Drawing.Point(383, 95);
+            this.lstKq.Location = new System.Drawing.Point(345, 57);
             this.lstKq.Name = "lstKq";
-            this.lstKq.Size = new System.Drawing.Size(207, 204);
+            this.lstKq.Size = new System.Drawing.Size(304, 344);
             this.lstKq.TabIndex = 8;
             // 
             // Form1
@@ -133,6 +133,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

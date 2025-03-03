@@ -29,10 +29,17 @@ namespace Bai17_TinhLaiSuat
             for (int i = 0; i <= nam; i++)
             {
                 tienlai = sotien * laisuat / 100;
-                lstKq.Items.Add("Năm " + (i + 1) + ": Vốn = " + string.Format("{0:N2}",sotien) + " - Tiền lãi: " + string.Format("{0:N2}", tienlai));
+                lstKq.Items.Add("Năm " + (i + 1) + ": Vốn = " + string.Format("{0:N2}",sotien) + " VND "+ " - Tiền lãi: " + string.Format("{0:N2}", tienlai) + " VND");
                 sotien += tienlai;
             }
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            txtTien.Text = "1000";
+            txtLaisuat.Text = "1%";
+            txtNam.Text = "10";
         }
     }
 }
