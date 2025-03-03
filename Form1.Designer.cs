@@ -112,14 +112,14 @@
             this.lstKq.ItemHeight = 20;
             this.lstKq.Location = new System.Drawing.Point(345, 57);
             this.lstKq.Name = "lstKq";
-            this.lstKq.Size = new System.Drawing.Size(304, 344);
+            this.lstKq.Size = new System.Drawing.Size(409, 344);
             this.lstKq.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(661, 432);
+            this.ClientSize = new System.Drawing.Size(766, 432);
             this.Controls.Add(this.lstKq);
             this.Controls.Add(this.txtNam);
             this.Controls.Add(this.txtLaisuat);
