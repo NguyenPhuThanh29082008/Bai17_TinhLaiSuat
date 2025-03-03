@@ -83,6 +83,7 @@
             this.btnTinh.TabIndex = 4;
             this.btnTinh.Text = "Tính";
             this.btnTinh.UseVisualStyleBackColor = true;
+            this.btnTinh.Click += new System.EventHandler(this.btnTinh_Click);
             // 
             // txtTien
             // 
